@@ -1,0 +1,599 @@
+/* ======================== Parts of this CSS Template have been adapted from the following users below, but I have changed the code quite a bit since theirs was outdated in certain parts!!! ========================  
+
+DO NOT. REMOVE THE CREDIT.
+
+Majority of edits and tweaks have been made by Shadow #591622, This has become a template that has a slightly different style to Katie and Jester, thus it’s under my Lioden Tag and not theirs! I’m not going to mark what I changed/edited. But it was a lot considering the old formats were OUTDATED and codes that they added no longer work.
+
+ORIGINAL Template made by katie (#106445) and jester (#187561), please check their Template for the full list of users as there are many. */
+
+body {font-family: Verdana;}
+ 
+.topbar {font-family: Verdana;}
+ 
+.navbar {font-family: Cinzel;}
+
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://images.unsplash.com/photo-1634162691538-19b4983dc1e1?q=80&w=863&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center / cover no-repeat fixed;
+background-size: 100%;
+background-size: cover;
+color: #271d29; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://images.unsplash.com/photo-1634162691538-19b4983dc1e1?q=80&w=863&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center center / cover no-repeat fixed;
+background-size: cover;
+color: #f9b0f0; } }
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #ffa6ef;}
+::-webkit-scrollbar-thumb {
+background: #a8629d; } 
+
+h1 {
+color: #08430b;
+font-family: Verdana, serif !important;
+font-size: 25px !important;
+font-weight: 900 !important;
+letter-spacing: -0.5px !important;
+}
+
+h2 {
+color: #271d29 !important;
+font-size: 24px;}
+
+h3 {
+color: #271d29 !important;
+font-size: 18px;}
+
+/* LINKS - Every Link on the page.*/
+
+a:link,
+a:visited {
+color: #271d29 !important;
+background: none !important; }
+   
+a:hover {
+color: #800a61 !important; }
+
+/* Beetle Glow! */
+img[src*="beetle"], img[src*="gb.png"], img[src*="sb.png"] {
+    filter: drop-shadow(0px 0px 4px #ffd700) !important;
+    transition: transform 0.2s ease !important;
+}
+
+/* --- Mound Box Glow --- */
+.mound-grid img {
+    filter: drop-shadow(0px 0px 5px #e4bfd4) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.container.main {
+background: rgba(217, 165, 194, .7);
+border: solid 3px;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+
+.topbar {
+background: linear-gradient(180deg, #f48289 0%, #e4ce93 100%) !important; 
+color: #9c2d54 !important; 
+border: none;
+border-radius: 9px;
+overflow: hidden;
+}
+ 
+.navbar {
+background: linear-gradient(180deg, #f48289 0%, #e4ce93 100%) !important;
+color: #9c2d54 !important;
+border: none;
+border-radius: 12px;
+overflow: hidden;
+}
+
+.navbar li a:hover {
+background: #db95ae !important;
+color: #9c2d54 !important; 
+border-radius: 8px;
+}
+
+.navbar-toggle {
+border: none !important;
+background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+.breadcrumb {
+background: linear-gradient(180deg, #f48289 0%, #e4ce93 100%) !important;
+color: #9c2d54 !important;
+border: none !important;
+border-radius: 9px !important;} 
+.breadcrumb .active {
+color: #9c2d54; }
+
+.alert, .alert-success, .alert-info {
+    background: #739665 !important;
+    border: 1px solid #HEX !important;
+    border-radius: 6px !important;
+    padding: 12px 20px !important;
+    color: #HEX !important;
+}
+.alert a, .alert-success a, .alert-info a {
+    color: #aa2a9c !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+.alert a:hover, .alert-success a:hover, .alert-info a:hover {
+    color: #c709ff !important;
+}
+
+.alert-danger, .alert-warning {
+    background: #701515 !important;
+    border: 1px solid #950000 !important;
+    border-radius: 6px !important;
+    padding: 12px 20px !important;
+    color: #ff1f1f !important;
+}
+.alert-danger a, .alert-warning a {
+    color: #ce39be !important; 
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+.alert-danger a:hover, .alert-warning a:hover {
+    color: #c709ff !important;
+}
+
+div#commentBox {
+background: #d9a5c2 !important;
+border: dashed !important;
+border-radius: 9px !important;
+color: #ffbefc !important;
+position: relative !important;
+}
+div#commentBox > b, div#commentBox > strong {
+display: none !important;
+}
+
+#comment::placeholder { color: #ffffff !important; }
+
+.comment {  
+background: linear-gradient(80deg, #698940 0%, #e5d88f 100%) !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 1px solid !important;
+color: #2d3b04 !important;
+text-align: left !important;
+}
+.comment:nth-child(even) {  
+background: linear-gradient(90deg, #698940 0%, #84ac50 100%) !important;
+}
+
+.text-muted {
+color: #f7abc4 !important; 
+}
+
+button:not(.s-chat-message_menu):not([id*="Chat"]), 
+input[type="submit"], 
+.btn-primary {
+background: #8c2674 !important;
+color: #b59fc4 !important;
+border: 1px solid #280c47 !important;
+border-radius: 6px !important;
+}
+
+table#player.table hr {
+display: none !important; 
+}
+table#player.table div.xlarge { 
+margin-top: 10px !important; 
+}
+
+.panel {
+background: linear-gradient(180deg, #f9b0ce 0%, #f9d8b0 100%) !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 9px !important;
+box-shadow: none !important;  }
+
+.progress-bar {
+background: linear-gradient(80deg, #f268e2 0%, #f494ff 100%) !important;
+border-radius: 0px !important; }
+
+.progress-bar-warning { 
+background: #HEX !important;
+color: #ffffff !important;}
+.progress-bar-danger { 
+background: #HEX !important;
+color: #HEX !important;}
+.progress-bar-success { 
+background: #HEX !important;
+color: #HEX !important;}
+
+.progress div {
+color: #154102 !important; }
+
+.progress {
+background:  #fcb1d6;
+color: #HEX !important;
+border-radius: 8px !important;  }
+
+/* Please Chat fix */
+.s-chat-message_menu {
+display: inline-flex !important;
+visibility: visible !important;
+opacity: 1 !important;
+box-sizing: border-box !important;
+}
+
+/* CHAT */
+#fraSidebarChat {
+background: transparent !important;
+border: transparent !important;
+border-radius: 3px !important;
+overflow: visible !important;
+}
+#fraSidebarChat h3,
+#fraSidebarChat h3 a {
+color: #981be4 !important;
+font-family: Arial, Helvetica, sans-serif !important;
+font-weight: bold !important;
+}
+#fraSidebarChat iframe {
+background: transparent !important;
+border: none !important;
+}
+#fraSidebarChat select {
+background: #FFF9E6 !important;
+color: #8e45b0 !important;
+border: none !important;
+border-radius: 4px !important;
+}
+#fraSidebarChat button,
+#fraSidebarChat .btn,
+#btnChatSettings,
+#btnLoadNewMessages,
+.s-chat-message_menu {
+background: none !important;
+color: #FFF9E6 !important;
+border: none !important;
+border-radius: 4px !important;
+}
+
+
+#btnChatSettings::before {
+content: "⚙" !important;
+color: #FFF9E6 !important;
+font-size: 16px !important;
+width: 17px !important;
+height: 16px !important;
+line-height: 16px !important;
+display: inline-block !important;
+transform: none !important;
+}
+#btnLoadNewMessages::before {
+content: "⟳" !important;
+color: #FFF9E6 !important;
+font-size: 16px !important;
+width: 17px !important;
+height: 16px !important;
+line-height: 16px !important;
+margin-top: 4px !important;
+margin-left: -3px !important;
+display: inline-block !important;
+transform: none !important;
+}
+.s-chat-message_menu::before {
+content: "•••" !important;
+color: #FFF9E6 !important;
+font-family: Arial, sans-serif !important;
+font-size: 9px !important;
+letter-spacing: 0.5px !important;
+width: 18px !important;
+height: 7px !important;
+line-height: 9px !important;
+display: inline-block !important;
+transform: none !important;
+}
+
+
+
+#chatMessageList .s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(odd) {
+background: #8c5c96 !important;
+color: #ffffff !important;
+border: 1px solid #7a0272 !important;
+}
+#chatMessageList .s-chat-message:nth-child(even),
+.s-chat-message:nth-child(even) {
+background: #c97ea8 !important;
+color: #ffffff !important;
+border: 1px solid #7a0272 !important;
+}
+#chatMessageList {
+background: #dd94ac !important;
+}
+
+.s-chat-message_timestamp {
+color: #ffffff !important;
+}
+
+#btnChatSettings,
+.s-chat-message_menu {
+display: inline-flex !important;
+align-items: center !important;
+justify-content: center !important;
+text-align: center !important;
+transform: none !important;
+padding: 0 !important;
+}
+#btnChatSettings i,
+.s-chat-message_menu i,
+#btnChatSettings .fa,
+.s-chat-message_menu .fa,
+#fraSidebarChat button i,
+#fraSidebarChat button .fa,
+#btnLoadNewMessages i {
+display: none !important;
+}
+
+div#lblCharacterCounter {
+color: #612e70 !important; }
+
+html.nolayout {
+background: none !important; }
+
+
+button#label_currentChannel
+{
+background: #3f1d5e !important;
+color: #C3A8BF !important;
+border: none !important;
+padding: 5px;
+border: 2px solid #cf9fc4 !important;
+border-radius: 0px !important;
+box-shadow: 0px 0px 5px 2px #4a704d !important;
+text-shadow: 0px 0px 0px #cf9fc4 !important;
+}
+
+
+
+
+.feature {
+background: linear-gradient(180deg, #44174a 0%, #c48656 100%) !important;
+color: #ffffff !important;
+border: 9px double #ffffff !important;
+border-radius: 0px !important;
+}
+
+div.left {
+background: #c97ea8 !important;
+color: #ffffff !important;
+border: none !important;
+border-radius: 0px !important;
+}
+
+.xsmall {
+font-size: 14px !important;
+}
+
+.table {
+background: linear-gradient(135deg, #69d785 0%, #f48289 100%) !important;
+border: none !important;
+border-collapse: separate;
+border-radius: 9px; }
+
+.top, .bottom, th {
+background: linear-gradient(180deg, #a25462 0%, #d58f94 100%) !important;
+color: #271d29 !important;
+border: none !important;
+border-radius: 9px !important; }
+
+.table .left {
+background: linear-gradient(80deg, #d16d8e 0%, #dd94ac 100%) !important;
+border-radius: 9px !important; }
+
+.inner-table .left {
+background: #HEX !important;
+border-radius: 9px !important;  }
+
+.inner-table .right {
+background: linear-gradient(50deg, #dd94ac 0%, #e6db8e 100%) !important;
+border-radius: 5px !important; 
+color: #24431c !important; } 
+
+.right_odd {
+background: none !important; }
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+opacity: 1.0;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+opacity: 1.0;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+    display: none !important;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a {
+    position: relative !important;
+    z-index: 999999 !important;
+    display: inline-block !important;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+    content: "" !important;
+    position: absolute !important;
+    top: -10px !important;
+    left: -13px !important;    
+    z-index: 999999 !important; 
+    width: 180px !important;   
+    height: 130px !important;  
+    background-image: url('https://static.lioden.com/img/layout/logo-full-2.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;  
+    background-position: center !important;
+}
+
+.navbar, .navbar-header, .container.main, nav {
+    overflow: visible !important;
+}
+
+.navbar-nav {
+    padding-left: 95px !important;
+}
+
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #ba75b8 !important;
+border: none !important;
+border-radius: 4px !important;
+color: #efd8e5 !important;
+text-shadow: none !important;
+}
+
+/* FIXED THE STUPID ENERGY BAR! */
+form:has(input[name="freeEnergyBoost"]) {
+display: block !important;
+width: 100% !important;
+box-sizing: border-box !important;
+}
+
+form:has(input[name="freeEnergyBoost"]) .panel.panel-default {
+max-width: 100% !important;
+box-sizing: border-box !important;
+overflow: hidden !important;
+}
+
+form:has(input[name="freeEnergyBoost"]) input[type="submit"] {
+max-width: 100% !important;
+box-sizing: border-box !important;
+white-space: nowrap !important;
+}
+
+input[name="freeEnergyBoost"] {
+font-size: 13px !important;
+font-family: Ariel, sans-serif !important;
+}
+
+ 
+.cave-grid,
+.mound-grid {
+background: #de979b !important;
+color: #271d29 !important;
+border: none !important;
+border-radius: 10px !important; }
+
+.cave-grid:has(img[src*="banner"]) img,
+img[src*="overviewbanner.png"],
+img[src*="nestingbanner.png"],
+img[src*="unsortedlionsbanner.png"] {
+width: 100% !important;
+height: 60px !important;
+}
+
+a:hover, a:active, 
+.feature:hover, .panel:hover, .cave-grid:hover,
+input:hover, select:hover, textarea:hover {
+    filter: brightness(108%) !important;
+    transition: filter 0.2s ease !important;
+}
+
+img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
+    transform: scale(1.2) !important;
+} 
+
+div.mound-grid>img {
+content: url('https://images.unsplash.com/photo-1646564956398-e044c58ddf24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')!important;
+object-fit: cover !important;
+object-position: center 50% !important;
+width: 150px !important;
+height: 70px !important;
+}
+
+a[href="unsorted.php?id=605373"] div.cave-grid>img {
+content: url('https://images.unsplash.com/photo-1620247994062-0aeee60177ba?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')!important;
+object-fit: cover !important;
+object-position: center 50% !important;
+width: 100% !important;
+height: 60px !important;
+}
+
+/* Codes here were originally made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+But I replaced the animation and keyframesPulse myself. By Shadow.
+Credit may not be removed! */
+
+/* CREDITS */
+
+.breadcrumb::before {
+ content: "CSS by Shadow #591622" !important;
+ color: #874fff !important;
+ font-size: 12px !important;
+ font-weight: bold !important;
+ position: absolute !important;
+ right: 135px !important;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+ .breadcrumb::after {
+  right: 20%;
+ }
+ }
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+ .breadcrumb::after {
+  right: 20%;
+ }
+ }
+
+@media only screen and (max-width: 767px) {
+ .breadcrumb::after {
+ right: 22%;
+ }
+
+/* Mobile Move Fix */
+
+@media only screen and (max-width: 767px) {
+ .breadcrumb::after {
+ right: 22%;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-nav,
+.navbar .nav {
+padding: 0 0 10px 0 !important;
+margin: 0 !important;
+text-align: left !important;
+}
+
+.navbar-collapse ul {
+padding-left: 0 !important;
+margin-left: 0 !important;
+text-align: left !important;
+}
+
+.navbar .navbar-nav li,
+.navbar .navbar-nav li a,
+.navbar .nav li,
+.navbar .nav li a {
+text-align: left !important;
+padding-left: 15px !important;
+margin-left: 0 !important;
+display: block !important;
+width: 100% !important;
+}
+}
