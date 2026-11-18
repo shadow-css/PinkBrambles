@@ -307,14 +307,14 @@ transform: none !important;
 
 #chatMessageList .s-chat-message:nth-child(odd),
 .s-chat-message:nth-child(odd) {
-background: #8c5c96 !important;
-color: #ffffff !important;
+background: #e6b586 !important;
+color: #32073b !important;
 border: 1px solid #7a0272 !important;
 }
 #chatMessageList .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(even) {
 background: #c97ea8 !important;
-color: #ffffff !important;
+color: #32073b !important;
 border: 1px solid #7a0272 !important;
 }
 #chatMessageList {
@@ -322,7 +322,7 @@ background: #dd94ac !important;
 }
 
 .s-chat-message_timestamp {
-color: #ffffff !important;
+color: #32073b !important;
 }
 
 #btnChatSettings,
